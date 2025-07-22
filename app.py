@@ -395,7 +395,7 @@ class CurrencyConverterApp:
     def mostrar_creditos(self):
         creditos_janela = tk.Toplevel(self.root)
         creditos_janela.title("Sobre")
-        creditos_janela.geometry("400x300"); creditos_janela.resizable(False, False)
+        creditos_janela.geometry("450x350"); creditos_janela.resizable(False, False)
         creditos_janela.transient(self.root); creditos_janela.grab_set()
         if self.FOTO_CRIADOR:
             foto_label = ttk.Label(creditos_janela, image=self.FOTO_CRIADOR)
@@ -411,7 +411,7 @@ class CurrencyConverterApp:
             link.bind("<Button-1>", lambda e: webbrowser.open_new(url))
         criar_link(links_frame, "GitHub: github.com/Zaiknown", "https://github.com/Zaiknown")
         criar_link(links_frame, "Instagram: @zaiknown.py", "https://instagram.com/zaiknown.py")
-        criar_link(links_frame, "LinkedIn: https://www.linkedin.com/in/matheus-zaino-94947234b/")
+        criar_link(links_frame, "LinkedIn: Matheus Zaino", "https://www.linkedin.com/in/matheus-zaino-94947234b/")
         self.centralizar_janela(creditos_janela)
     def criar_foto_circular(self, caminho_imagem, tamanho):
         try:
