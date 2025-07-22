@@ -411,6 +411,7 @@ class CurrencyConverterApp:
             link.bind("<Button-1>", lambda e: webbrowser.open_new(url))
         criar_link(links_frame, "GitHub: github.com/Zaiknown", "https://github.com/Zaiknown")
         criar_link(links_frame, "Instagram: @zaiknown.py", "https://instagram.com/zaiknown.py")
+        criar_link(links_frame, "LinkedIn: https://www.linkedin.com/in/matheus-zaino-94947234b/")
         self.centralizar_janela(creditos_janela)
     def criar_foto_circular(self, caminho_imagem, tamanho):
         try:
