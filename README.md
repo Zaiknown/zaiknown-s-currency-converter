@@ -51,8 +51,8 @@ Este projeto nasceu como um simples script e evoluiu para uma aplicação de des
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/Zaiknown/conversor-de-moedas.git](https://github.com/Zaiknown/conversor-de-moedas.git)
-    cd conversor-de-moedas
+    git clone [https://github.com/Zaiknown/zaiknown-s-currency-converter](https://github.com/Zaiknown/zaiknown-s-currency-converter)
+    cd conversor_moedas
     ```
 
 2.  **Crie e ative um ambiente virtual (recomendado):**
