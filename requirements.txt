@@ -1,0 +1,4 @@
+requests
+Pillow
+sv-ttk
+matplotlib

@@ -1,0 +1,24 @@
+# Arquivos de cache e compilados do Python
+__pycache__/
+*.pyc
+
+# Cache de bandeiras baixadas
+flag_cache/
+
+
+# Arquivo de preferências do usuário
+favorites.json
+
+# Arquivos de ambiente virtual
+venv/
+.venv/
+env/
+.env
+
+# Arquivos de configuração de IDEs
+.idea/
+.vscode/
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
